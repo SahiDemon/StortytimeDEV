@@ -11,10 +11,23 @@
         Background="Transparent"
         AllowsTransparency="True"
         MouseDown="Window_MouseDown">
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="Loaded">
+            <BeginStoryboard>
+                <Storyboard>
+                    <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:2" />
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+    </Window.Triggers>
+    
+    
 
     <Border CornerRadius="50">
         <Border.Background>
+            
             <ImageBrush ImageSource="/Images/log5.jpg" />
+            
         </Border.Background>
         <Border CornerRadius="50"
             BorderThickness="3"

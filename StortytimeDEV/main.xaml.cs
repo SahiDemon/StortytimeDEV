@@ -16,21 +16,13 @@ using System.Windows.Shapes;
 namespace StortytimeDEV
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for main.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class main : UserControl
     {
-        public MainWindow()
+        public main()
         {
             InitializeComponent();
-        }
-
-        private void Border_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            if (e.ChangedButton == MouseButton.Left)
-            {
-                this.DragMove();
-            }
         }
     }
 }
