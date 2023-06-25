@@ -21,7 +21,8 @@
                     <GradientStop Color="#462AD8" Offset="1" />
                 </LinearGradientBrush>
             </Border.Background>
-        </Border>        <StackPanel>
+        </Border>
+        <StackPanel>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 35 0 0">
                 <Border CornerRadius="10" Width="40" Height="40">
                     <Border.Background>
@@ -98,7 +99,7 @@
 
                     <!--<Separator Height="0.8" Margin="15 50" Background="#46558a"></Separator>-->
 
-                    <Grid Grid.Row="1" Margin="0  0 0">
+                    <Grid Grid.Row="1" Margin="0 50 0 0">
                         
                         
                         
